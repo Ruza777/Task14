@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100 vw;
+	font-size: 17px;
+    font-family: "PT sans", sans-serif;
+	line-height: 1;
+    
+
+}
+
+header {
+     padding-top: 15px;
+     padding-bottom: 15px;
+     margin-bottom: 3px;
+     background-color:rgb(228, 228, 216);
+     display:flex;
+     justify-content:space-around;
+     align-items:center;
+    
+}   
+.menu  {
+    color:rgb(90, 195, 10);
+}
+.hi {
+    color:rgb(208, 151, 52);
+}
+.button {
+    text-decoration:none;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #56c25c;
+    color:white;
+    border:none;
+    border-radius: 7px;
+
+}
+.header a.button:hover {
+    background-color:  rgb(142, 223, 80);
+}
+h1, h3 {text-align: center;}
+
+.h2 {
+    color:rgba(0, 102, 179, 0.773);
+    padding-left: 50px;
+}
+
+.h2action {
+    color:rgb(247, 30, 30);
+   }
+   
+main {
+    background-image:url(./img/pic6.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0  auto;
+    width: 85vw;
+    height: 85vh;
+    color:white;
+    font-size: 18px;
+    text-shadow: #333 1px 1px 0;
+}
+li {
+    padding: 10px;
+}
+.h1 {
+    color:rgb(247, 30, 30);
+    font: 1em sans-serif;
+    font-style:italic;
+
+    top: 100px; 
+    left: 70px;
+    text-shadow: #333 1px 1px 0;
+   }
+
+
+   .birthday a {
+    color: #fbe202;
+    text-align: center;
+   }
+   .birthday div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: #6a27b6;
+    text-align: center;
+   }
+   .container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+   }
+   .galereya {
+    background: #56c25b49;
+    border-width: 3px;
+    border-style:dotted;
+    border-color:rgba(246, 255, 0, 0.421);
+   }
+
+ .section {
+    margin: 0  auto;
+    width: 600px;
+    display: flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: space-around;
+
+}
+/*.spec {
+    background: rgba(243, 196, 12, 0.388);
+}*/
+.action {
+    display: flex;
+	flex-direction:column;
+	align-items:flex-start;
+	justify-content: space-around;
+    max-width:30vw;height:auto;
+   
+}
+.service li{
+    margin-bottom: 10px;
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.form {
+    padding: 50px;
+    background-color:rgba(224, 211, 194,0.5);
+}
+input{
+    margin: 20px;
+}
+.but_log {
+    background-color:  #56c25c;
+    border: 2px  solid  #56c25c;
+    border-radius: 7px;
+    color:white;
+}
+input.but_log:hover {
+    background-color:rgb(142, 223, 80);
+    border: 2px  solid  rgb(142, 223, 80);
+}
+img {max-width:100%;height:auto;}
